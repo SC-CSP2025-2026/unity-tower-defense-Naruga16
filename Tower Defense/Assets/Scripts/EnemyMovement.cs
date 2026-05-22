@@ -4,6 +4,8 @@ public class EnemyMovement : MonoBehaviour
 {
     [field: SerializeField]
     public float Speed { get; private set; } = 1f;
+    [field: SerializeField]
+    public Waypoint Target { get; private set; }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
