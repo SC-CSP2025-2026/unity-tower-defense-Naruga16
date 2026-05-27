@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 7990446252002880089}
   - component: {fileID: 106365891867236898}
   - component: {fileID: -8224166024354110565}
+  - component: {fileID: 9045203059069879078}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -180,6 +181,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 0
+--- !u!114 &9045203059069879078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3372464453311184630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d274ce5af1fcd41e8b268438bf9f9f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <BaseHealth>k__BackingField: 2
+  <Damage>k__BackingField: 0
 --- !u!1 &4087797137264857082
 GameObject:
   m_ObjectHideFlags: 0
