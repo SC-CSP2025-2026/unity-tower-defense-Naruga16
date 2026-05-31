@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8396607239772786866}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Round End Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1687635446330345952}
   - component: {fileID: 5858221103055239201}
   - component: {fileID: 6708038941431746667}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}

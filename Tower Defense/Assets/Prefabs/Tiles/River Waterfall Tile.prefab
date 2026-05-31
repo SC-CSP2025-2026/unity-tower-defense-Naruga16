@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5043393849099127214}
   - component: {fileID: 6932264924186395858}
   - component: {fileID: 8038280563471740211}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6081294334150852235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: River Waterfall Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

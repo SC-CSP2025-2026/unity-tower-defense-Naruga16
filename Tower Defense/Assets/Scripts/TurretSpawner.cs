@@ -1,12 +1,11 @@
 using UnityEngine;
 
-public class TileCursor : MonoBehaviour
+public class TurretSpawner : MonoBehaviour
 {
     [field: SerializeField]
     public GameObject TargetGrid { get; private set; }
-
     [field: SerializeField]
-    public GameObject Model { get; private set; }
+    public GameObject TurretPrefab { get; private set; }
 
     void OnEnable()
     {
@@ -22,28 +21,27 @@ public class TileCursor : MonoBehaviour
     {
         foreach (TileController tile in grid.GetComponentsInChildren<TileController>())
         {
-            tile.OnCursorEnter.AddListener(HandleTileEntered);
-            tile.OnCursorExit.AddListener(HandleTileExited);
+            tile.OnCursorClicked.AddListener(SpawnTurret);
         }
     }
 
-    public void HandleTileEntered(TileController tile)
+    public void SpawnTurret (TileController tileController)
     {
-        transform.position = tile.transform.position;
-        Model.SetActive(true);
-    }
-
-    public void HandleTileExited(TileController tile)
-    {
-        Model.SetActive(false);
+        if(tileController.IsOccupied)
+        {
+            return;
+        }
+        GameObject newTurret = Instantiate(TurretPrefab);
+        newTurret.transform.position = tileController.transform.position;
+        tileController.IsOccupied = true;
     }
 
     public void StopListeningToTilesIn(GameObject grid)
     {
         foreach (TileController tile in grid.GetComponentsInChildren<TileController>())
         {
-            tile.OnCursorEnter.RemoveListener(HandleTileEntered);
-            tile.OnCursorExit.RemoveListener(HandleTileExited);
+            tile.OnCursorClicked.RemoveListener(SpawnTurret);
         }
     }
 }
+

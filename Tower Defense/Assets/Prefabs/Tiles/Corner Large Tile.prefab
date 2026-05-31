@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3457223678380504992}
   - component: {fileID: 1206579103613183951}
   - component: {fileID: 3130095403034507926}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2781422735626423130}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Corner Large Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

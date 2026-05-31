@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2777815343356326784}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree Quad Tile 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 5219900610736229198}
   - component: {fileID: 5930927138676779052}
   - component: {fileID: 7443594462794092389}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}

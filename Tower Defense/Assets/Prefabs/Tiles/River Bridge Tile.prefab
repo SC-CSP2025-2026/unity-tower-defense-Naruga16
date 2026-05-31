@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6578131425337933160}
   - component: {fileID: 4472812355860872200}
   - component: {fileID: 5254870328015673968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5337589498867893416}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: River Bridge Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
