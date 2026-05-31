@@ -10,4 +10,5 @@ public class CameraEventMaskController : MonoBehaviour
         Camera camera = GetComponent<Camera>();
         camera.eventMask = EventMask;
     }
+     
 }
