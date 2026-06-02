@@ -14,11 +14,11 @@ public class TurretTarget : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+   void Update()
+   {
+    if (AoE.Targets.Count != 0 && AoE.Targets[0] != null)
     {
-        if (AoE.Targets.Count != 0)
-        {
-            Model.transform.LookAt(AoE.Targets[0].transform);
-        }
+        Model.transform.LookAt(AoE.Targets[0].transform);
     }
+   }
 }
