@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class TowerController : MonoBehaviour
 {
     [field: SerializeField]
-    public float BaseHealth { get; private set; } = 15f;
+    public float BaseHealth { get; private set; } = 6f;
 
     [field: SerializeField]
     public float Damage { get; private set; } = 0f;

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a5215c5178dd434cb6647b7a73ec5d0, type: 3}
-  m_Name: TurretData
+  m_Name: BallistaData
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Turret
-  <Cost>k__BackingField: 50
-  <BuildingPrefab>k__BackingField: {fileID: 4944463135256573261, guid: 1211eb7b6e2184d26a4a566e6848a110, type: 3}
+  <Name>k__BackingField: Ballista
+  <Cost>k__BackingField: 75
+  <BuildingPrefab>k__BackingField: {fileID: 4944463135256573261, guid: 7ebad812dd2e146e68918df6abdaef61, type: 3}
